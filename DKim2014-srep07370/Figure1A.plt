@@ -1,18 +1,13 @@
-set tmargin 0
-set lmargin 9
-set rmargin 0
-set bmargin 7
-
 set log xy
 
 # Tick formatting
 set format xy "10^{%L}"
 
-set xl "{/Arial-Bold=17 Rank :} {/Arial-Bold-Italic=17 r}"
-set yl "P(r)" font "Arial Bold Italic,17"
+set xl "Rank : r"
+set yl "P(r)"
 
-set xtics out font "Arial,10"
-set ytics out font "Arial,10"
+set xtics out
+set ytics out
 
 # Set range of x-axis
 set xr[1:2.5e5]
